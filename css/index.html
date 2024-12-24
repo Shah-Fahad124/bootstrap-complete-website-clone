@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap-utilities.css">
+  <title>EduVibe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ************ NavBar ************ -->
+  <nav class="navbar navbar-expand-lg w-100 navbar-light px-4 bg-transparent position-absolute top-0"
+    style="z-index: 88;">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" height="40em"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav align-items-center fw-bolder pt-4">
+          <li>
+            <div class="dropdown pb-5">
+              <button class="btn btn-transparent dropdown-toggle" type="button">
+                Home
+              </button>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                <li><a class="dropdown-item" href="#">Home 2</a></li>
+                <li><a class="dropdown-item" href="#">Home 3</a></li>
+                <li><a class="dropdown-item" href="#">Home 4</a></li>
+                <li><a class="dropdown-item" href="#">Home 5</a></li>
+                <li><a class="dropdown-item" href="#">Home 6</a></li>
+                <li><a class="dropdown-item" href="#">Landing demo 1</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown pb-5">
+              <button class="btn btn-transparent dropdown-toggle" type="button">
+                About
+              </button>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">About us 1</a></li>
+                <li><a class="dropdown-item" href="#">About us 2</a></li>
+                <li><a class="dropdown-item" href="#">About us 3</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown pb-5">
+              <button class="btn btn-transparent dropdown-toggle" type="button">
+                Courses
+              </button>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">Courses Style 1</a></li>
+                <li><a class="dropdown-item" href="#">Courses Style 2</a></li>
+                <li><a class="dropdown-item" href="#">Courses Style 3</a></li>
+                <li><a class="dropdown-item" href="#">Courses Style 4</a></li>
+                <li><a class="dropdown-item" href="#">Courses Style 5</a></li>
+                <li><a class="dropdown-item" href="#">Courses filter</a></li>
+                <li><a class="dropdown-item" href="#">Courses carasouel</a></li>
+                <li><a class="dropdown-item" href="#">Courses with Slidebar</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown pb-5">
+              <button class="btn btn-transparent dropdown-toggle" type="button">
+                Pages
+              </button>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown pb-5">
+              <button class="btn btn-transparent dropdown-toggle" type="button">
+                Blog
+              </button>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown pb-5">
+              <button class="btn btn-transparent dropdown-toggle" type="button">
+                Shop
+              </button>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">Action 1</a></li>
+                <li><a class="dropdown-item" href="#">Action 2</a></li>
+                <li><a class="dropdown-item" href="#">Action 3</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="buttons fw-bold">
+        <button class="btn btn-secondary me-2 bg-white search-btn"><img src="./images/search.svg" alt=""></button>
+        <button class="login-btn btn btn-primary fw-bold border-0"><img class="text-white pe-2"
+            src="./images/person.svg" alt="">Login / Register</button>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <!-- ************  First Section ************ -->
+  <header class="header-section position-relative">
+    <div class="row justify-content-center w-100 p-5">
+      <div class="col-5">
+        <p class="text-primary fs-4">Excellence in Education</p>
+        <h1 class="h1 large-font">Start Better Learning Future From Here</h1>
+        <p class=" text-secondary my-5 fs-5 p-line">Learning is a journey that in fact we never find the terminate stop.
+          Stop searching, enjoy the process.</p>
+        <button class="btn btn-primary fw-bolder py-3 px-4 started-btn">Get Started Today <span><img
+              src="./images/arrow-right.svg" alt=""></span></button>
+      </div>
+
+      <div class="col-3 d-flex flex-column align-items-end mt-4">
+        <div class="card p-3 rounded-1" style="width: 18rem;">
+          <img src="./images/free-images.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <small class="pb-3">39 Lessons</small><small class="ms-4 pb-3">8 Hours 28 min</small>
+            <h5 class="card-title fs-6 fw-bold">Learning How To Write As A Professional Author</h5>
+            <p class="card-text ">Nunc laoreet, lectue dapibus and tincidunted nequed for an finibu euarcu.</p>
+          </div>
+        </div>
+
+        <div class="card mt-4 rounded-1" style="width: 13rem;">
+          <div class="card-body">
+            <img src="./images/workshop.png" alt="">
+            <h5 class="card-title">Design Workshop</h5>
+            <h5 class="card-subtitle mb-2 text-muted fs-6">Today at 6:00 am</h5>
+            <button class="btn btn-warning ">Join Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 mt-4">
+        <img src="./images/video-image.png" alt="" style="height: 75vh; width: 27vw;">
+      </div>
+    </div>
+    <img src="./images/arrow-down.svg" alt="" class="bg-white p-4 rounded-circle arrow-down shadow">
+  </header>
+
+  <!-- *************  About Section ************ -->
+  <section class="about-us mt-5 pb-5 mb-5">
+    <div class="row justify-content-center pt-5">
+      <div class="col-5 position-relative">
+        <img src="./images/about-image-01.jpg" alt="">
+        <img src="./images/about-image-02.jpg" alt="" class="about-img2 rounded-2">
+        <img src="./images/badge.png" alt="" class="about-badge">
+      </div>
+
+      <div class="col-5">
+        <h4 class="text-primary text-uppercase">About us</h4>
+        <h2 class="h1 mb-5 mt-3">Creating A Community Of Life Long Learners</h2>
+        <p class="p-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc null liobortis nibh
+          porttitor. Facilisi arcu, nibh vel risus, morbi pharetra. </p>
+        <h5 style="margin-bottom: -10px;" class="mt-5"><span><img class="bg-warning rounded-circle p-3 me-2 mt-2"
+              src="./images/backpack2.svg" alt="" width="10%"></span>Flexible Classes</h5>
+        <p class="ms-5 ps-3">It is a long established fact that a reader will be distracted by this on readable content
+          of when looking at its layout.</p>
+
+        <h5 style="margin-bottom: -10px;" class="mt-5"><span><img class="bg-warning rounded-circle p-3 me-2 mt-2"
+              src="./images/backpack2.svg" alt="" width="10%"></span>Learn From Anywhere</h5>
+        <p class="ms-5 ps-3">It is a long established fact that a reader will be distracted by this on readable content
+          of when looking at its layout.</p>
+
+        <button class="btn btn-primary py-3 px-4 mt-4 ms-1 fw-bolder about-btn">Know About Us <span><img
+              src="./images/arrow-right.svg" alt=""></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***************  Popular Topics  ********** -->
+
+  <section class="popular-topics">
+    <div class="row justify-content-center pt-5">
+      <div class="col-5 mt-5">
+        <p class="text-primary text-center fw-bold mt-5 text-uppercase"
+          style="margin-bottom: 0px; letter-spacing: .1em;">Course Categories</p>
+        <h1 style="margin-top: 7px;" class="text-center fw-bold">Popular Topics To Learn</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-5 me-5" style="gap: 4em;">
+      <div class="col-2">
+        <div class="card rounded-3 text-center populars-cards" style="width: 17rem;">
+          <img src="./images/category-01.jpg" class="card-img-top rounded-3" alt="...">
+          <div class="card-body">
+            <p class="text-primary mt-4">25 Courses</p>
+            <h5 class="card-title">Graphics Design</h5>
+            <p class="card-text py-3">Lorem Ipsum is simply for this dummy text of the printing</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card rounded-3 text-center populars-cards" style="width: 17rem;">
+          <img src="./images/category-02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="text-primary mt-4">25 Courses</p>
+            <h5 class="card-title">Business Analysis</h5>
+            <p class="card-text py-3">Lorem Ipsum is simply for this dummy text of the printing</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card rounded-3 text-center populars-cards" style="width: 17rem;">
+          <img src="./images/category-03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="text-primary mt-4">25 Courses</p>
+            <h5 class="card-title">Data Science</h5>
+            <p class="card-text py-3">Lorem Ipsum is simply for this dummy text of the printing</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card rounded-3 text-center populars-cards" style="width: 17rem;">
+          <img src="./images/category-04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="text-primary mt-4">25 Courses</p>
+            <h5 class="card-title">Architecture</h5>
+            <p class="card-text py-3">Lorem Ipsum is simply for this dummy text of the printing</p>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="row">
+      <div class="col-12 text-center ">
+        <button class="btn btn-primary fw-bolder py-4 px-5 mt-5 courses-btn">All Categories <span><img
+              src="./images/arrow-right.svg" alt=""></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- *******************  popular courses   ************ -->
+  <section class="popular-courses">
+    <div class="row justify-content-center pt-5">
+      <div class="col-5 mt-5">
+        <p class="text-primary text-center fw-bold mt-5 text-uppercase"
+          style="margin-bottom: 0px; letter-spacing: .1em;">Popular Courses</p>
+        <h1 style="margin-top: 7px;" class="text-center fw-bold">Featured On This Month</h1>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 gap-4 justify-content-center mt-4">
+      <div class="col-3">
+        <div class="card h-100 p-3" style="width: 22rem;">
+          <div class="card-image-box">
+            <img src="./images/course-01.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card-body">
+            <div class="image-title pt-3 pb-4 d-flex align-items-start">
+              <img src="./images/instructor-1.jpg" alt="" class="rounded-circle pe-2" style="height: 2em;">
+              <span> James Carlson</span>
+              <span class="ms-5"><img class="me-2" src="./images/star-fill.svg" alt=""></span><span>(5.9)</span>
+            </div>
+            <h5 class="card-title">Personal Finance: Financial Security Thinking & Principles</h5>
+            <p class="card-text mt-4 mb-3"><span>190 Students</span> <span class="ms-5">29 Lessons</span></p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary px-3">$29.00 USD</button>
+            <span class="ms-3" style="text-decoration: line-through;">$39.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-3" style="width: 22rem;">
+          <div class="card-image-box">
+            <img src="./images/course-02.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <div class="image-title pt-3 pb-4 d-flex align-items-start">
+              <img src="./images/instructor-2.jpg" alt="" class="rounded-circle pe-2" style="height: 2em;">
+              <span> Nancy Phipps </span>
+              <span class="ms-5"><img class="me-2" src="./images/star-fill.svg" alt=""></span><span>(5.9)</span>
+            </div>
+            <h5 class="card-title">Personal Finance: Financial Security Thinking & Principles</h5>
+            <p class="card-text mt-4 mb-3"><span>190 Students</span> <span class="ms-5">29 Lessons</span></p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary px-3">$29.00 USD</button>
+            <span class="ms-3" style="text-decoration: line-through;">$39.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-3" style="width: 22rem;">
+          <div class="card-image-box">
+            <img src="./images/course-03.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <div class="image-title pt-3 pb-4 d-flex align-items-start">
+              <img src="./images/instructor-6.jpg" alt="" class="rounded-circle pe-2" style="height: 2em;">
+              <span> Linda Bacote</span>
+              <span class="ms-5"><img class="me-2" src="./images/star-fill.svg" alt=""></span><span>(4.9)</span>
+            </div>
+            <h5 class="card-title">Personal Finance: Financial Security Thinking & Principles</h5>
+            <p class="card-text mt-4 mb-3"><span>190 Students</span> <span class="ms-5">29 Lessons</span></p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary px-3">$29.00 USD</button>
+            <span class="ms-3" style="text-decoration: line-through;">$39.00 USD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 gap-4 justify-content-center mt-4">
+      <div class="col-3">
+        <div class="card h-100 p-3" style="width: 22rem;">
+          <div class="card-image-box">
+            <img src="./images/course-03.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card-body">
+            <div class="image-title pt-3 pb-4 d-flex align-items-start">
+              <img src="./images/instructor-4.jpg" alt="" class="rounded-circle pe-2" style="height: 2em;">
+              <span> James Carlson</span>
+              <span class="ms-5"><img class="me-2" src="./images/star-fill.svg" alt=""></span><span>(5.9)</span>
+            </div>
+            <h5 class="card-title">Personal Finance: Financial Security Thinking & Principles</h5>
+            <p class="card-text mt-4 mb-3"><span>190 Students</span> <span class="ms-5">29 Lessons</span></p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary px-3">$29.00 USD</button>
+            <span class="ms-3" style="text-decoration: line-through;">$39.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-3" style="width: 22rem;">
+          <div class="card-image-box">
+            <img src="./images/course-05.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <div class="image-title pt-3 pb-4 d-flex align-items-start">
+              <img src="./images/instructor-1.jpg" alt="" class="rounded-circle pe-2" style="height: 2em;">
+              <span> Nancy Phipps </span>
+              <span class="ms-5"><img class="me-2" src="./images/star-fill.svg" alt=""></span><span>(5.9)</span>
+            </div>
+            <h5 class="card-title">Personal Finance: Financial Security Thinking & Principles</h5>
+            <p class="card-text mt-4 mb-3"><span>190 Students</span> <span class="ms-5">29 Lessons</span></p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary px-3">$29.00 USD</button>
+            <span class="ms-3" style="text-decoration: line-through;">$39.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-3" style="width: 22rem;">
+          <div class="card-image-box">
+            <img src="./images/course-06.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <div class="image-title pt-3 pb-4 d-flex align-items-start">
+              <img src="./images/instructor-2.jpg" alt="" class="rounded-circle pe-2" style="height: 2em;">
+              <span> Linda Bacote</span>
+              <span class="ms-5"><img class="me-2" src="./images/star-fill.svg" alt=""></span><span>(4.9)</span>
+            </div>
+            <h5 class="card-title">Personal Finance: Financial Security Thinking & Principles</h5>
+            <p class="card-text mt-4 mb-3"><span>190 Students</span> <span class="ms-5">29 Lessons</span></p>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary px-3">$29.00 USD</button>
+            <span class="ms-3" style="text-decoration: line-through;">$39.00 USD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center ">
+        <button class="btn btn-primary fw-bolder py-4 px-5 mt-5 courses-btn">View All Courses <span><img
+              src="./images/arrow-right.svg" alt=""></span></button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ************** Team Members **********  -->
+  <div class="team-members">
+    <div class="row  justify-content-center pt-5">
+      <div class="col-5 mt-5">
+        <p class="text-white text-center fw-bold mt-5 text-uppercase" style="margin-bottom: 0px; letter-spacing: .1em;">
+          Team Member</p>
+        <h1 style="margin-top: 7px;" class="text-center fw-bold text-white">Meet Our Instructor</h1>
+      </div>
+    </div>
+
+    <div class="row mt-5 pe-5 justify-content-center" style="gap: 5em;">
+      <div class="col-2">
+        <div class="teamMember-absolute-card position-relative team-member-card">
+          <img src="./images/instructor-1 (1).jpg" alt="">
+          <div class="card position-absolute team-member-popup" style="bottom: -10%; left: 15%; width: 19vw;">
+            <div class="card-body">
+              <h5 class="card-title">James Carlson</h5>
+              <p class="card-text mb-2">WordPress Expert</p>
+              <ul class="d-flex list-unstyled gap-4">
+              <li><img src="./images/facebook.svg" alt=""></li>
+              <li><img src="./images/linkedin.svg" alt=""></li>
+              <li><img src="./images/instagram.svg" alt=""></li>
+              <li><img src="./images/youtube.svg" alt=""></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="teamMember-absolute-card position-relative team-member-card">
+          <img src="./images/instructor-2 (1).jpg" alt="">
+          <div class="card position-absolute team-member-popup" style="bottom: -10%; left: 15%; width: 19vw;">
+            <div class="card-body">
+              <h5 class="card-title">James Carlson</h5>
+              <p class="card-text mb-2">WordPress Expert</p>
+              <ul class="d-flex list-unstyled gap-4">
+              <li><img src="./images/facebook.svg" alt=""></li>
+              <li><img src="./images/linkedin.svg" alt=""></li>
+              <li><img src="./images/instagram.svg" alt=""></li>
+              <li><img src="./images/youtube.svg" alt=""></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="teamMember-absolute-card position-relative team-member-card">
+          <img src="./images/instructor-3(1).jpg" alt="">
+          <div class="card position-absolute team-member-popup" style="bottom: -10%; left: 15%; width: 19vw;">
+            <div class="card-body">
+              <h5 class="card-title">James Carlson</h5>
+              <p class="card-text mb-2">WordPress Expert</p>
+              <ul class="d-flex list-unstyled gap-4">
+              <li><img src="./images/facebook.svg" alt=""></li>
+              <li><img src="./images/linkedin.svg" alt=""></li>
+              <li><img src="./images/instagram.svg" alt=""></li>
+              <li><img src="./images/youtube.svg" alt=""></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="teamMember-absolute-card position-relative team-member-card">
+          <img src="./images/instructor-4 (1).jpg" alt="">
+          <div class="card position-absolute team-member-popup" style="bottom: -10%; left: 15%; width: 19vw;">
+            <div class="card-body">
+              <h5 class="card-title">James Carlson</h5>
+              <p class="card-text mb-2">WordPress Expert</p>
+              <ul class="d-flex list-unstyled gap-4">
+              <li><img src="./images/facebook.svg" alt=""></li>
+              <li><img src="./images/linkedin.svg" alt=""></li>
+              <li><img src="./images/instagram.svg" alt=""></li>
+              <li><img src="./images/youtube.svg" alt=""></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+         
+
+
+    <!-- ********************* Testimonaial Section *************** -->
+      <section class="testimonial">
+        <div class="row  justify-content-center pt-5">
+          <div class="col-5 mt-5">
+            <p class="text-primary text-center fw-bold mt-5 text-uppercase" style="margin-bottom: 0px; letter-spacing: .1em;">
+              Testimonial</p>
+            <h1 style="margin-top: 7px;" class="text-center fw-bold">What Our Student Says</h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5 position-relative">
+          <div class="col-5">
+           <img src="./images/testimonial-01.jpg" alt="">
+           <div class="card position-absolute testimonial-badge" style="width: 14rem; top: 15%; left: -1.5%;" >
+            <div class="card-body ps-5">
+                <h5 class="card-title fw-bold">50K+</h5>
+                <p class="card-text">Satisfied Learners</p>
+            </div>
+           </div>
+          </div>
+          <div class="col-5 mt-4">
+             <img src="./images/quote.png" alt="">
+             <p class="fs-4 my-5">" Reprehenderit, omnis. Modi molestiae rerum autem nam magni fugiat architecto suscipit veritatis, esse, excepturi, cum eligendi iusto numquam accusantium voluptatum earum necessitatibus obcaecati repellendus?</p>
+             <div class="review-person d-flex align-content-center">
+              <div class="review-person-pic">
+                  <img src="./images/workshop.png" alt="" style="height: 4em;">
+              </div>
+              <div class="review-person-name ms-3">
+                  <h4>David Bard</h4>
+                  <p class="text-primary">JavaScript Developer</p>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+
+               <!-- ************  Email Section *********** -->
+
+          <section class="email-sec">
+            <div class="row h-100 justify-content-center align-items-center">
+              <div class="col-5 mt-5">
+                <p class="text-white text-center fw-bold mt-5 text-uppercase" style="margin-bottom: 0px; letter-spacing: .1em;">
+                  Subscribe Newsletter</p>
+                <h1 style="margin-top: 7px;" class="text-center fw-bold text-white">Get Every Latest News</h1>
+                <div class="d-flex align-items-center mt-5">
+                  <span class="py-3 px-2 bg-white rounded-start"><img src="./images/envelope.svg" alt="" style="height: 1rem;" class="ps-1"></span>
+                  <input type="text" name="" id="" placeholder="Enter your mail address"
+                class="w-100 py-3 border-0" style="outline: none;"> 
+                <span class="py-3 px-4 bg-white rounded-end"><img src="./images/send-arrow-up.svg" alt="" style="height: 1rem;" class="ps-1"></span>
+                </div> 
+
+            </div>
+
+          </section>
+
+
+          <!-- ********** footer section ********* -->
+
+          <section class="footer-section">
+              <div class="row justify-content-center" style="padding-top: 7rem;"> 
+                  <div class="col-3 ">
+                    <ul>
+                      <li><img src="./images/logo-white.png" alt=""></li>
+                      <li class="pt-4 mt-4"><p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p></li>
+                      <li class="mt-5 ms-3"> <ul class="d-flex list-unstyled gap-4 ">
+                        <li class="bg-white py-2 px-3 rounded"><img src="./images/facebook.svg" alt=""></li>
+                        <li class="bg-white py-2 px-3 rounded"><img src="./images/linkedin.svg" alt=""></li>
+                        <li class="bg-white py-2 px-3 rounded"><img src="./images/instagram.svg" alt=""></li>
+                        <li class="bg-white py-2 px-3 rounded"><img src="./images/youtube.svg" alt=""></li>
+                      </ul></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-2" style="width: 17rem;">
+                   
+                    <ul class="text-white footer-ul">
+                      <li> <h2 class="text-white">Explore</h2></li>
+                      <li>>> About Us</li>
+                      <li>>> Upcoming Events</li>
+                      <li>>> Blog & News</li>
+                      <li>>> FAQ Questions</li>
+                      <li>>> Testimonaial</li>
+                      <li>>> Privacy Policy</li>
+                    </ul>
+                </div>
+
+                  <div class="col-2"  style="width: 17rem;">
+                   
+                    <ul class="text-white footer-ul">
+                      <li> <h2 class="text-white">Explore</h2></li>
+                      <li>>> About Us</li>
+                      <li>>> Upcoming Events</li>
+                      <li>>> Blog & News</li>
+                      <li>>> FAQ Questions</li>
+                      <li>>> Testimonaial</li>
+                      <li>>> Privacy Policy</li>
+                    </ul>
+                </div>
+
+                  <div class="col-3">
+                   
+                    <ul class="text-white footer-ul">
+                      <li> <h2 class="text-white">Contact Info</h2></li>
+                      <li> 275 Quadra Street Victoria Road, New York</li>
+                      <li>
+                        + 1 (237) 382-2839</li>
+                      <li> 
+                        + 1 (237) 382-2840</li>
+                      <li> 
+                        yourmailaddress@example.com</li>
+                    </ul>
+                </div>
+              </div>
+          </section>
+
+      <script src="./js/bootstrap.bundle.js"></script>
+      <script src="./js/bootstrap.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+  }
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ overflow-x: hidden;
+
+}
+  .dropdown-menu{
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 0%;
+    width: 15vw;
+    padding-left: 1em;
+  }
+ .dropdown-menu a{
+    font-weight: 600;
+  }
+
+  .dropdown-toggle{
+    font-weight: 600;
+  }
+
+.header-section{
+    background-color: #FEE6D9;
+    min-width: 100vw;
+    padding-top: 8em;
+    padding-bottom: 4em;
+  }
+
+  .buttons button{
+    padding: .8em 1.5em;
+  }
+  .search-btn{
+    padding: .8em 1em !important;
+    border: none;
+  }
+
+  .login-btn{
+    transition: all .5s ease;
+  }
+  .login-btn:hover{
+    background-color: rgb(19, 18, 18);
+  }
+ 
+ .large-font{
+    font-size: 4rem;
+    font-weight: 4em;
+ }
+
+ .arrow-down{
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+ }
+.started-btn:hover{
+  background-color: rgb(19, 18, 18);
+
+}
+
+ .about-us{
+  width: 100vw;
+  height: 120vh;
+ }
+
+ .about-img2{
+  position: absolute;
+  bottom: 0%;
+  right: 6%;
+ }
+.about-btn{
+  transition: all .5s ease;
+}
+.about-btn:hover{
+  background-color: rgb(19, 18, 18);
+}
+ .about-badge{
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  background-color: rgb(235, 234, 234);
+  border-radius: 50%;
+  padding: 1em;
+  animation: rotate 4s linear infinite;
+ }
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+ .popular-topics{
+  width: 100vw;
+  height: 150vh;
+  background-color: #F3ECF3;
+ }
+
+.p-line{
+  border-left: 2px solid rgba(0, 0, 255, 0.678);
+  padding-left: .6em;
+}
+.courses-btn:hover{
+  background-color: rgb(19, 18, 18);
+
+ }
+ .populars-cards{
+  transition: transform .5s ease;
+ }
+ .populars-cards:hover{
+  transform: translateY(-5%);
+  border-bottom: 2px solid blue;
+ }
+
+ .popular-courses{
+  width: 100vw;
+  padding-bottom: 5rem;
+
+ }
+
+ .card-image-box{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+ }
+ .card-image-box img{
+  min-width: 100%;
+  height: 100%;
+  
+ }
+ 
+
+ .popular-courses .card{
+  background-color: rgba(223, 218, 218, 0.603);
+ }
+ .popular-courses .card:hover{
+  background-color: #ffff;
+  box-shadow: .01px .01px 10px .01px rgba(172, 168, 168, 0.473);
+ }
+
+ .popular-courses .card img {
+  transition: transform .5s ease;
+}
+
+.popular-courses .card:hover img {
+  transform: scale(1.2);
+}
+
+.team-members{
+  min-width: 100vw;
+  height: 120vh;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.team-member-popup{
+  display: none;
+}
+
+.team-member-card:hover .team-member-popup{
+  display: block;
+}
+
+.testimonial{
+  width: 100vw;
+  height: 140vh;
+}
+
+.testimonial-badge{
+ animation: translateY 1s ease-in-out infinite alternate-reverse ;
+}
+
+@keyframes translateY{
+      from {
+        transform: translateY(-15%);
+      }
+      
+      to{
+        transform: translateY(15%);
+      }
+
+}
+
+
+
+.email-sec{
+  width: 100vw;
+  height: 80vh;
+  background-color: blue;
+  margin-top: 8em;
+  padding-bottom: 6em;
+}
+
+.footer-section{
+  width: 100vw;
+  height: 100vh;
+  background-color: #231F40;
+}
+
+.footer-ul li{
+    margin: 1.5em;
+    list-style: none;
+    font-weight: bold;
+}
+
+.footer-ul li:hover{
+  color: rgb(58, 58, 211);
+  cursor: pointer;
+}
